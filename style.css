@@ -1,0 +1,17 @@
+.fadeIn {
+  animation: fadeIn 5s;
+  animation-fill-mode: both;
+}
+
+.wait-2s {
+  animation-delay: 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
